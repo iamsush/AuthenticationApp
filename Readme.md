@@ -17,6 +17,6 @@ Just do npm install in server directory and use node ./bin/www to run the app.
 
 ```
 cd ./server
-npm Install
+npm install
 node ./bin/www
 ```

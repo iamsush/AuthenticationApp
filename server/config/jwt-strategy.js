@@ -5,7 +5,7 @@ var UserService = require('../services/user.service');
 
 module.exports = function(passport){
   var opts = {};
-  opts.jwtFromRequest = ExtractJwt.fromAuthHeader();
+  opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme('jwt');
   opts.secretOrKey = config.secret;
 
   passport.use(new JwtStrategy(opts, async function(jwt_payload, done){

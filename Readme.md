@@ -1,5 +1,7 @@
 # Authentication App
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iamsush/AuthenticationApp.svg)](https://greenkeeper.io/)
+
 ## Getting Started
 
 This is a simple Authentication App.
